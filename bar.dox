@@ -1,4 +1,16 @@
 /**
- * \page page_bargraph The Bargraph
- * Some explanation here!
+ * \page page_bargraph A simple bargraph
+ * 
+ * This module is used to show a simple bargraph by using LEDs attached to a
+ * configured atmega port. It also has some little features how to show a 
+ * value. Please look into the example configuration (bar_config_eaxample.h)
+ * for further documentation.
+ *
+ * Features:
+ *- simple bargraph: the higher the value the more LEDs are on
+ *- inverted bargraph: 0's and 1's are inverted 
+ *- reversed bargraph: the higher the value the less LEDs are on
+ *- offset: if port pin 0 is not available
+ *- chip select: if there is a driver chip used
  */
+
